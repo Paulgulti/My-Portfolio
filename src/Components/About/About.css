@@ -1,0 +1,77 @@
+.about {
+  margin-top: 80px;
+}
+
+/* .about p,
+.about h2 {
+} */
+
+.about h2 {
+  /* font-family: "Syne Mono", serif; */
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 3rem;
+}
+.about p {
+  text-align: center;
+  font-family: open;
+  /* font-family: "Eczar", serif; */
+  font-family: "Open Sans", serif;
+  font-size: 1.5rem;
+}
+.about span {
+  display: block;
+}
+.ic {
+  width: 150px;
+  height: 50px;
+  background-color: aqua;
+  margin: 0 40px;
+}
+
+/* .skill-icons{
+  overflow: hidden;
+  white-space: nowrap;
+} */
+/* .skill-icons-slide{
+  display: inline-block;
+  animation: skill-icons-slide 5s linear infinite;
+} */
+.skill-icons-slide div {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.skill-icons-slide {
+  display: inline-block;
+  animation: skill-icons-slide 5s linear infinite;
+  /* width: 300px;
+  margin-left: 100px;
+  margin-right: auto; */
+}
+
+.skill-icons {
+  white-space: nowrap;
+  overflow: hidden;
+  /* padding-left: 200px; */
+}
+
+@keyframes skill-icons-slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 425px) {
+  .about h2 {
+    font-size: 1.5rem;
+  }
+  .about p {
+    font-size: 0.8rem;
+  }
+}
