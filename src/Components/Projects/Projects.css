@@ -2,8 +2,9 @@
 .projects {
     display: flex;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
     flex-wrap: wrap;
+    /* border: 2px solid red; */
 }
 
 /* .project-cont {
@@ -45,16 +46,32 @@
     scale: 1.02;
 }
 
+.project-links a div {
+    /* border: 1px solid transparent; */
+    border: 1px dotted currentColor;
+    display: flex;
+    /* text-align: center; */
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+.project-links a div:hover {
+    /* scale: 1.02; */
+    border: 1px solid currentColor;
+}
+
 .project-links a {
     text-decoration: none;
+    color: currentColor;
 }
+
 
 @media (max-width: 425px) {
     .card .project-description {
         font-size: 0.7rem;
     }
 }
-@media (max-width: 510px) {
+@media (max-width: 675px) {
     .card {
         flex-direction: column;
     }
