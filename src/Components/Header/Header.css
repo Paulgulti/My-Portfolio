@@ -2,18 +2,28 @@
 /* nav{
   border: 1px solid
 } */
-.header {
-  /* border: 1px solid white; */
 
-}
  .header .logo p {
   /* border: 1px solid white; */
   margin-bottom: 0;
   font-size: 1.5rem;
   font-weight: bold;
 }
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .header .logo span {
   font-size: small;
+}
+.theme {
+  width: 20px;
+  height: 20px;
+}
+.theme:hover {
+  scale: 1.05;
 }
 @media (max-width: 425px) {
   .header .logo p {
