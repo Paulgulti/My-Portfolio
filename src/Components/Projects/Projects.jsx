@@ -6,12 +6,13 @@ import expenseTrackerImg from '/Expense-Tracker-1.png'
 import foodRecipeImg from '/food-recipe.png'
 import moviePosterAppImg from '/movie-poster-4.png'
 import personalBlogAppImg from '/Personal-blog-app.png'
+import merkeMarketImg from '/merke-market.png'
 
 const Projects = () => {
   return (
     <div className='container projects' id="projects">
       <h3>Projects</h3>
-      <Card title="E-commerce Storefront" stack="HTML, Tailwind, React" liveLink="https://e-commerce-storefront-pi.vercel.app/" sourceCodeLink="https://github.com/Paulgulti/E-commerce-Storefront" imgSrc={shoppingCartImg} />
+      <Card title="E-commerce Store" stack="Next.Js, Typescript, Prisma, Tailwind" liveLink="https://merke-market.vercel.app" sourceCodeLink="https://github.com/Paulgulti/et-market" imgSrc={merkeMarketImg} />
       <Card title="Expense Tracker" stack="HTML, CSS, React" liveLink="https://paulgulti.github.io/ET/" sourceCodeLink="https://github.com/Paulgulti/ET" imgSrc={expenseTrackerImg} />
       <Card title="Recipe Finder" stack="HTML, CSS, React" liveLink="https://recipe-finder-eight-steel.vercel.app/" sourceCodeLink="https://github.com/Paulgulti/Recipe-finder" imgSrc={foodRecipeImg} />
       <Card title="Personal Blog App" stack="HTML, Next.js, Sanity, Tailwind, Shadcn" liveLink="https://personal-blog-nu-amber.vercel.app/" sourceCodeLink="https://github.com/Paulgulti/Personal_Blog" imgSrc={personalBlogAppImg} />
