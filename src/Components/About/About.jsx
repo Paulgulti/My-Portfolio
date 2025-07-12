@@ -29,7 +29,7 @@ const About = () => {
       </div>
       <h3>FRONT-END <span>WEB DEVELOPER</span></h3>
       <p>
-        It all started when I stumbled upon a learning platform called FreeCodeCamp. HTML and CSS felt simple, fun, and exciting. 
+        It all started when I stumbled upon a learning platform called <a href='https://www.freecodecamp.org' target='_blank' >FreeCodeCamp</a>. HTML and CSS felt simple, fun, and exciting. 
         That spark led me down the never-ending rabbit hole of web development. 
         Now, I build full-stack apps with Next.js and other modern tools, constantly learning and creating along the way.
       </p>

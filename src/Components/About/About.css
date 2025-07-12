@@ -11,11 +11,11 @@
   margin-top: 80px;
 }
 
-/* .about p,
-.about h2 {
-} */
-
-/* annimation start */
+.about p a {
+  color: inherit;
+  font-style: italic;
+  text-decoration: none;
+}
 
 h2 {
   display: flex;
