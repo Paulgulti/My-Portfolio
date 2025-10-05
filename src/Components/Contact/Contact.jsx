@@ -10,7 +10,7 @@ const Contact = () => {
         <div id="contact" className='container contact'>
             <div className='footer'>
                 <div className='owner'>Paul Gulti</div>
-                <span className='year'>@2025| All right reserved</span>
+                <span className='year'>@2025 AdAstra ET| All right reserved</span>
             </div>
             <div className='social-icons'>
                 <a href="https://mail.google.com/mail/paulgulti20@gmail.com" target='_blank' className='social-icon'><MdEmail className='icon'/></a>

@@ -85,13 +85,12 @@ ul li a{
 
 /* {PROJECTS} */
 .card{
-  border: 1px solid;
+  /* border: 1px solid; */
   width: 45%;
   padding: 10px;
-  padding: 10px;
-  border: 1px solid;
+  /* border: 1px solid; */
   margin: 10px;
-  box-shadow: 5px 5px 5px hsl(0, 0%, 15%);
+  box-shadow: 5px 5px 5px hsl(0, 0%, 64%);
   display: flex;
   gap: 1rem;
   border-radius: 15px;
@@ -112,7 +111,13 @@ ul li a{
   }
 }
 .card .title{
-  font-size: 1.3em;
+  font-size: 1em;
+}
+.card .desc{
+  font-size: 0.8em;
+}
+.card .stack{
+  font-size: 0.7em;
 }
 /* .card .stack{
   margin-top: 5px;
@@ -173,7 +178,7 @@ ul li a{
     max-width: 768px;
   }
   .card{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 100%;
   }
 }

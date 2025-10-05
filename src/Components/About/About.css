@@ -6,10 +6,18 @@
   /* font-weight: 300; */
   font-style: normal;
 }
-
+/* 
 .about {
   margin-top: 80px;
-}
+} */
+
+/* .hero {
+  height:100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+} */
 
 .about p a {
   color: inherit;

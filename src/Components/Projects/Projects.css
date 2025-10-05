@@ -7,6 +7,10 @@
     /* border: 2px solid red; */
 }
 
+.container p {
+    font-size: 0.8em;
+}
+
 /* .project-cont {
     column-gap: 2.5rem;
     display: grid;

@@ -19,8 +19,8 @@ function App() {
     <div className={`app-container ${theme === 'Light' ? 'Light' : 'Dark'}`}>
       <Header toggleTheme={toggleTheme} theme={theme}/>
       <About/>
-      <Certificates/>
       <Projects/>
+      <Certificates/>
       <Contact/>
     </div>
   )

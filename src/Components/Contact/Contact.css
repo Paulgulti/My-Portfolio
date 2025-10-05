@@ -1,6 +1,13 @@
 .contact .social-icons .icon{
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
+}
+.contact {
+    margin-top: 20px;
+}
+.contact .footer {
+    margin-top: 5px;
+    margin-bottom:0px;
 }
 .social-icons a {
     text-decoration: none;
@@ -8,7 +15,7 @@
 }
 @media (max-width: 425px) {
     .contact .social-icons .icon{
-        height: 20px;
-        width: 20px;
+        height: 10px;
+        width: 10px;
     }
 }

@@ -31,12 +31,16 @@
     object-fit: cover;
 } */
 
+.certificates-container {
+    display: flex;
+}
+
 .certificates .infos {
     /* border: 2px black solid; */
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.409);
-    padding: 12px;
-    width: 300px;
-    height: 250px;
+    padding: 15px;
+    width: 250px;
+    height: 200px;
     border-radius: 10px;
 }
 
@@ -61,4 +65,12 @@
 .certificates .infos h4,a {
     margin: 2px;
     font-size: 12px;
+}
+
+@media (max-width: 670px){
+.certificates-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }

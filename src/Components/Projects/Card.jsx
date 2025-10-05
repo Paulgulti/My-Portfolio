@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Card = ({ title, stack, liveLink, sourceCodeLink, imgSrc }) => {
+const Card = ({ title, stack, liveLink, sourceCodeLink, imgSrc, desc }) => {
     return (
         <div className='card'>
             <img src={imgSrc} alt="project-image" className='project-img' />
             <div className='project-description'>
                 <p className='title'>{title}</p>
+                <p className='desc'>{desc}</p>
                 <p className='stack'>Stack: {stack}</p>
                 <div className='project-links'>
                     <a href={liveLink} target='_blank'>

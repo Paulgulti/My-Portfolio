@@ -14,25 +14,27 @@ import nextJs from '/next-js.svg';
 const About = () => {
   return (
     <div id="about" className='container about inter'>
-      <h2>
-        <span>H</span>
-        <span>e</span>
-        <span>l</span>
-        <span>l</span>
-        <span>o</span>
-        <span>!</span>
-      </h2>
-      <div className='text-cont-cont'>
-        <div className='text-cont'>
-          <p className='text'>I am Paull</p>
+      <div className='hero'>
+        <h2>
+          <span>H</span>
+          <span>e</span>
+          <span>l</span>
+          <span>l</span>
+          <span>o</span>
+          <span>!</span>
+        </h2>
+        <div className='text-cont-cont'>
+          <div className='text-cont'>
+            <p className='text'>I am Paull</p>
+          </div>
         </div>
+        <h3>FRONT-END <span>WEB DEVELOPER</span></h3>
+        <p>
+          It all started when I stumbled upon a learning platform called <a href='https://www.freecodecamp.org' target='_blank' >FreeCodeCamp</a>. HTML and CSS felt simple, fun, and exciting.
+          That spark led me down the never-ending rabbit hole of web development.
+          Now, I build full-stack apps with Next.js and other modern tools, constantly learning and creating along the way.
+        </p>
       </div>
-      <h3>FRONT-END <span>WEB DEVELOPER</span></h3>
-      <p>
-        It all started when I stumbled upon a learning platform called <a href='https://www.freecodecamp.org' target='_blank' >FreeCodeCamp</a>. HTML and CSS felt simple, fun, and exciting. 
-        That spark led me down the never-ending rabbit hole of web development. 
-        Now, I build full-stack apps with Next.js and other modern tools, constantly learning and creating along the way.
-      </p>
       <h3 className='skills'>Skills</h3>
       <div className='skill-icons'>
         <div className='skill-icons-slide'>
